@@ -1,170 +1,371 @@
-# Lalah – Afghan Educational Chatbot
+<!-- Header Banner -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=لاله%20|%20Lalah&fontSize=60&fontAlignY=35&animation=fadeIn&desc=AI%20Educational%20Chatbot%20for%20Afghan%20Students&descSize=20&descAlignY=55" alt="Lalah Header"/>
+</p>
 
-Lalah is a multilingual educational chatbot designed for Afghan students and teachers.  
-It supports **Dari**, **Pashto**, and **English**, and runs on WhatsApp, web, and other channels to provide 24/7 learning support.
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Live%20%26%20Active-success?style=for-the-badge" alt="Status"/>
+  <img src="https://img.shields.io/badge/Languages-Dari%20|%20Pashto%20|%20English-blue?style=for-the-badge" alt="Languages"/>
+  <img src="https://img.shields.io/badge/Platform-WhatsApp%20|%20Telegram%20|%20Web-25D366?style=for-the-badge" alt="Platform"/>
+</p>
 
-Lalah helps learners practice reading, writing, comprehension, Kankor preparation, and more, using modern AI technologies combined with local curriculum needs.
+<p align="center">
+  <a href="https://wa.link/78knlw"><img src="https://img.shields.io/badge/Try%20on%20WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/></a>
+  <a href="https://t.me/Lalah_Senf_bot"><img src="https://img.shields.io/badge/Try%20on%20Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
+  <a href="https://tutorbot.senf.af/"><img src="https://img.shields.io/badge/Try%20Web%20App-0078D4?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Web App"/></a>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=24%2F7+AI+Tutor+for+Afghan+Students;Multilingual+%7C+Dari+%2B+Pashto+%2B+English;Curriculum-Aligned+%7C+Kankor+Preparation;Culturally+Aware+%7C+Privacy+First" alt="Typing SVG"/>
+</p>
 
 ---
 
-## 🌱 Why Lalah?
+## 📖 About Lalah
 
-Many Afghan students have:
+**Lalah (لاله)** is a multilingual AI-powered educational chatbot designed specifically for Afghan students and teachers. Built with cultural awareness and Islamic principles at its core, Lalah provides 24/7 personalized learning support in **Dari**, **Pashto**, and **English**.
 
-- Limited access to quality teachers and learning materials  
-- Unstable internet and expensive data  
-- Very little personalized support or feedback  
+> 🌷 *"Lalah"* means *"Tulip"* in Dari/Pashto — a flower symbolizing knowledge, growth, and the beauty of learning.
 
-Lalah tries to reduce this gap by providing:
-
-- A **24/7 AI tutor** in Dari, Pashto, and English  
-- Simple text-based interaction (works even with low bandwidth)  
-- Content aligned with Afghan school subjects and Kankor preparation  
+Lalah bridges the educational gap for students with limited access to quality teachers, expensive data, and unstable internet by providing simple text-based interactions optimized for low bandwidth.
 
 ---
 
 ## ✨ Key Features
 
-- **Multilingual support**
-  - Understands and responds in Dari, Pashto, and English
-  - Handles mixed-language messages where possible
+### 🌐 Multilingual Intelligence
+| Feature | Description |
+|---------|-------------|
+| **Language Detection** | Automatically detects and responds in the user's language |
+| **Script Support** | Full Arabic script support for Dari and Pashto |
+| **No Mixing** | Never mixes languages in responses |
+| **Dari vs Persian** | Uses authentic Afghan Dari terminology, not Iranian Persian |
 
-- **Educational focus**
-  - Reading and comprehension practice
-  - Writing support and feedback
-  - Science, math, and general knowledge
-  - Kankor exam preparation (Afghan university entrance)
+### 📚 Educational Modules
 
-- **RAG (Retrieval-Augmented Generation)**
-  - Uses a curated knowledge base for more accurate answers
-  - Can be customized with new documents and content
+<details>
+<summary><b>📖 Reading Comprehension</b></summary>
 
-- **WhatsApp & Web**
-  - Accessible through WhatsApp (chatbot style)
-  - Web interface for testing and future integrations
+- **Adaptive Level System**: Grades 1-12, U1, U2, P (Professional)
+- **GPF-Aligned Passages**: Word counts and complexity matched to grade level
+- **MCQ Assessment**: 2 questions per passage (literal + inferential)
+- **Progress Tracking**: Automatic level adjustment based on performance
+- **Age-Neutral Content**: Mature themes with grade-appropriate vocabulary
+- **Cultural Relevance**: Afghan names, settings, and contexts
 
-- **Personalized support**
-  - Session-based memory to follow ongoing conversations
-  - Safer responses for students (content filters and rules)
+</details>
 
----
+<details>
+<summary><b>🎓 Kankor Exam Preparation</b></summary>
 
-## 🧠 Tech Stack
+- **9 Subject Areas**: Mathematics, Physics, Chemistry, Biology, Geology, Geography, Pashto, Dari, Islamic Studies
+- **Authentic Format**: Standard Kankor MCQ format (A, B, C, D)
+- **Scoring System**: 2.25 marks per correct answer
+- **Adaptive Difficulty**: Adjusts based on performance
+- **Progress Tracking**: Session scores and cumulative marks
+- **Video Resources**: Links to Kankor video lessons in Dari/Pashto
 
-Lalah is built using:
+</details>
 
-- **LLMs**
-  - OpenAI models
-  - Google Gemini models
+<details>
+<summary><b>📝 Writing Assessment</b></summary>
 
-- **Orchestration**
-  - [LangChain] for chaining tools, prompts, and RAG
+- **5-Dimension Evaluation**:
+  - Grammar & Spelling (1-20)
+  - Vocabulary (1-20)
+  - Structure (1-20)
+  - Content (1-20)
+  - Creativity (1-20)
+- **Proficiency Levels**: Beginner, Intermediate, Advanced
+- **Constructive Feedback**: Specific suggestions for improvement
+- **Progress Tracking**: Score comparison across sessions
 
-- **Retrieval & Memory**
-  - **ChromaDB** for vector search (RAG)
-  - **Redis** for session-based chat history
+</details>
 
-- **Backend**
-  - Python
-  - Flask (web server and webhooks)
+<details>
+<summary><b>🔬 Subject Support</b></summary>
 
-- **Infrastructure**
-  - AWS EC2 (current deployment)
-  - Redis (AWS ElastiCache)
+- Reading and Comprehension 📖
+- Mathematics ➗
+- Sciences (Biology, Chemistry, Physics) 🔬
+- Languages (Dari, Pashto, English) 🗣️
+- Geography, Geology and History 🌍
+- Islamic Studies 🕌
+- Writing ✍️
+- And many more...
 
-- **Integrations**
-  - WhatsApp Business API (via webhook)
-  - Web frontend (simple chat UI)
+</details>
 
-> Note: This repository currently focuses on documentation and project overview. Code structure and deployment instructions will be added in next versions.
+### 🧠 Intelligent Tutoring
 
----
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  🎯 TUTORING APPROACH                                           │
+├─────────────────────────────────────────────────────────────────┤
+│  ✓ Never gives answers immediately                              │
+│  ✓ Guides students through step-by-step reasoning               │
+│  ✓ Uses Socratic questioning method                             │
+│  ✓ Adapts to student's pace and understanding                   │
+│  ✓ Celebrates progress and encourages curiosity                 │
+│  ✓ Connects learning to real Afghan contexts                    │
+└─────────────────────────────────────────────────────────────────┘
+```
 
-## 🎯 What Lalah Can Do (Use Cases)
+### 🛡️ Safety & Cultural Sensitivity
 
-For **students**:
-
-- Ask questions about school subjects in Dari, Pashto, or English  
-- Practice reading and comprehension with guided questions  
-- Get help understanding difficult topics step by step  
-- Prepare for **Kankor** with explanations and sample questions  
-
-For **teachers / organizations**:
-
-- Provide an always-available assistant for their learners  
-- Add their own learning materials into Lalah using RAG  
-- Support remote and blended learning programs  
-- Use analytics (future feature) to see common questions and needs  
-
----
-
-## 🔒 Safety & Student Protection
-
-Lalah includes a custom safety layer for:
-
-- Detecting inappropriate or harmful questions  
-- Blocking or redirecting unsafe content  
-- Limiting off-topic or non-educational requests  
-- Handling attacks like prompt injection where possible  
-
-These checks are being improved continuously for **Dari**, **Pashto**, and **English**.
-
----
-
-## 🛠 Current Status
-
-- Deployed version running on **AWS EC2 t3.xlarge**
-- Integrated with **Redis** and **ChromaDB**
-- Connected to **WhatsApp** for pilot users
-- Tested with Afghan students in real educational use cases
-
-Planned improvements:
-
-- Cleaner modular codebase for public release  
-- Better language detection for short text in Arabic script  
-- More structured learning paths (lessons, levels, quizzes)  
-- Dashboard/analytics for partners (schools, universities, NGOs)  
+| Feature | Implementation |
+|---------|----------------|
+| **Content Filtering** | Inappropriate content detection and redirection |
+| **Cultural Awareness** | Respects Afghan values and Islamic principles |
+| **Student Protection** | Age-appropriate responses and boundaries |
+| **Emergency Protocols** | Mental health support and emergency numbers |
+| **Privacy First** | Minimal data retention, session-based memory |
+| **Sensitive Topics** | Careful handling with safety prioritization |
 
 ---
 
-## 🚀 Roadmap (High Level)
+## 🧰 Tech Stack
 
-- [ ] Open-source selected components of Lalah  
-- [ ] Add example data and RAG setup scripts  
-- [ ] Provide Docker-based deployment template  
-- [ ] Add Telegram and web-widget integrations  
-- [ ] Release documentation for partners (schools, NGOs)  
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,flask,fastapi,redis,mongodb,aws,linux,github" alt="Tech Stack"/>
+</p>
+
+### AI & Machine Learning
+![LangChain](https://img.shields.io/badge/LangChain-000000?style=for-the-badge&logo=chainlink&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Gemini](https://img.shields.io/badge/Google%20Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-0A66C2?style=for-the-badge)
+![Embeddings](https://img.shields.io/badge/Embeddings-8B5CF6?style=for-the-badge)
+
+### Backend & Infrastructure
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Gunicorn](https://img.shields.io/badge/Gunicorn-499848?style=for-the-badge&logo=gunicorn&logoColor=white)
+
+### Databases & Storage
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-4ECDC4?style=for-the-badge)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+
+### Cloud & DevOps
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![EC2](https://img.shields.io/badge/EC2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white)
+![ElastiCache](https://img.shields.io/badge/ElastiCache-527FFF?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+### Integrations
+![WhatsApp](https://img.shields.io/badge/WhatsApp%20API-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)
+![Telegram](https://img.shields.io/badge/Telegram%20Bot-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
+![Webhooks](https://img.shields.io/badge/Webhooks-FF6B6B?style=for-the-badge)
 
 ---
 
-## 🤝 Collaboration & Partnerships
+## 🏗️ Architecture
 
-Lalah is built for Afghan students and institutions.  
-If you are:
-
-- A school, university, or NGO
-- Working on education in Afghanistan or similar contexts
-- Interested in piloting or integrating Lalah
-
-you are welcome to reach out and discuss collaboration.
+```
+┌──────────────────────────────────────────────────────────────────────────┐
+│                            USER INTERFACES                               │
+├────────────────┬─────────────────┬─────────────────┬─────────────────────┤
+│   WhatsApp     │    Telegram     │    Web Chat     │      Future...      │
+│   (+44...)     │  @Lalah_Senf    │  tutorbot.senf  │                     │
+└───────┬────────┴────────┬────────┴────────┬────────┴─────────────────────┘
+        │                 │                 │
+        └─────────────────┼─────────────────┘
+                          ▼
+┌──────────────────────────────────────────────────────────────────────────┐
+│                         FLASK/FASTAPI SERVER                             │
+│                      (AWS EC2 t3.xlarge Ubuntu)                          │
+├──────────────────────────────────────────────────────────────────────────┤
+│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐  ┌─────────────────┐  │
+│  │  Webhook    │  │  Language   │  │  Session    │  │    Safety       │  │
+│  │  Handler    │  │  Detection  │  │  Manager    │  │    Filter       │  │
+│  └──────┬──────┘  └──────┬──────┘  └──────┬──────┘  └────────┬────────┘  │
+└─────────┼────────────────┼────────────────┼──────────────────┼───────────┘
+          │                │                │                  │
+          ▼                ▼                ▼                  ▼
+┌──────────────────────────────────────────────────────────────────────────┐
+│                          LANGCHAIN ORCHESTRATION                         │
+├──────────────────────────────────────────────────────────────────────────┤
+│  ┌─────────────────────────────────────────────────────────────────────┐ │
+│  │                    SYSTEM PROMPT + MODULES                          │ │
+│  │  ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────────┐   │ │
+│  │  │ Reading │ │ Kankor  │ │ Writing │ │ General │ │ Emergency   │   │ │
+│  │  │ Comp.   │ │ Prep    │ │ Assess  │ │ Tutor   │ │ Protocols   │   │ │
+│  │  └─────────┘ └─────────┘ └─────────┘ └─────────┘ └─────────────┘   │ │
+│  └─────────────────────────────────────────────────────────────────────┘ │
+└──────────────────────────────────────────────────────────────────────────┘
+          │                                      │
+          ▼                                      ▼
+┌─────────────────────┐                ┌─────────────────────┐
+│    LLM PROVIDERS    │                │    RAG PIPELINE     │
+├─────────────────────┤                ├─────────────────────┤
+│  ┌───────────────┐  │                │  ┌───────────────┐  │
+│  │    OpenAI     │  │                │  │   ChromaDB    │  │
+│  │    GPT-4      │  │                │  │   Vectors     │  │
+│  └───────────────┘  │                │  └───────────────┘  │
+│  ┌───────────────┐  │                │         │          │
+│  │    Google     │  │                │         ▼          │
+│  │    Gemini     │  │                │  ┌───────────────┐  │
+│  └───────────────┘  │                │  │   Afghan      │  │
+└─────────────────────┘                │  │   Curriculum  │  │
+                                       │  │   + LMS       │  │
+                                       │  └───────────────┘  │
+                                       └─────────────────────┘
+          │
+          ▼
+┌─────────────────────┐
+│   REDIS (SESSION)   │
+├─────────────────────┤
+│  • Chat History     │
+│  • User Profiles    │
+│  • Reading Levels   │
+│  • Kankor Progress  │
+│  • Writing Scores   │
+└─────────────────────┘
+```
 
 ---
 
-## 📫 Contact
+## 🎯 Use Cases
 
-- **Project lead:** Shams Haqyar  
-- **Email:** Shams.haqyar786@gmail.com  
-- **Website:**  https://senf.af/lalah.html
-- **WhatsApp demo :** https://wa.link/78knlw
+### For Students 👨‍🎓👩‍🎓
+
+| Use Case | Description |
+|----------|-------------|
+| **Daily Homework Help** | Get step-by-step guidance on any subject |
+| **Reading Practice** | Improve comprehension with adaptive passages |
+| **Kankor Preparation** | Practice MCQs and track progress |
+| **Writing Improvement** | Get detailed feedback on essays |
+| **Quick Questions** | Ask anything in Dari, Pashto, or English |
+| **Study Support** | 24/7 access even with unstable internet |
+
+### For Teachers & Organizations 🏫
+
+| Use Case | Description |
+|----------|-------------|
+| **Supplementary Teaching** | Always-available assistant for learners |
+| **Custom Content** | Add learning materials via RAG |
+| **Remote Learning** | Support blended learning programs |
+| **Assessment** | Track student progress and identify gaps |
+| **Resource Distribution** | Share curriculum-aligned materials |
+
+---
+
+## 📊 Current Deployment
+
+| Component | Specification |
+|-----------|--------------|
+| **Server** | AWS EC2 t3.xlarge (Ubuntu 24) |
+| **Memory Store** | AWS ElastiCache (Redis) |
+| **Vector DB** | ChromaDB (persistent) |
+| **LLM Provider** | OpenAI GPT-4 / Google Gemini |
+| **Status** | ✅ Live and serving students |
+
+---
+
+## 🔗 Related Platforms
+
+<table>
+<tr>
+<td align="center" width="33%">
+
+### 📚 Senf.af
+Learning materials for Grades 7-12 in Dari & Pashto
+
+[![Visit Senf](https://img.shields.io/badge/Visit-senf.af-blue?style=for-the-badge)](https://senf.af/)
+
+</td>
+<td align="center" width="33%">
+
+### 🎓 Kankor.af
+Kankor exam preparation, mock tests, past papers
+
+[![Visit Kankor](https://img.shields.io/badge/Visit-kankor.af-green?style=for-the-badge)](https://kankor.af/)
+
+</td>
+<td align="center" width="33%">
+
+### 📖 Dana Learn
+Afghanistan Learning Passport integration
+
+[![Visit Dana](https://img.shields.io/badge/Visit-danalearn.org-orange?style=for-the-badge)](https://afghanistan.learningpassport.org/)
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🗺️ Roadmap
+
+- [x] Core chatbot functionality
+- [x] Multilingual support (Dari, Pashto, English)
+- [x] WhatsApp integration
+- [x] Telegram integration
+- [x] Web interface
+- [x] Reading comprehension module
+- [x] Kankor preparation module
+- [x] Writing assessment module
+- [x] RAG with Afghan curriculum
+- [x] LMS content integration
+- [ ] Better language detection for short Arabic-script text
+- [ ] Structured learning paths (lessons, levels, quizzes)
+- [ ] Dashboard/analytics for partners
+- [ ] Voice message support
+- [ ] Image generation for educational content
+- [ ] Open-source selected components
+- [ ] Docker-based deployment template
+- [ ] Partner documentation (schools, NGOs)
+
+---
+
+## 🤝 Collaboration
+
+Lalah is built for Afghan students and institutions. We welcome collaboration with:
+
+- 🏫 **Schools & Universities** — Integrate Lalah for your students
+- 🌍 **NGOs** — Support education initiatives in Afghanistan
+- 👨‍💻 **Developers** — Contribute to multilingual EdTech
+- 📚 **Content Creators** — Add curriculum-aligned materials
+
+---
+
+## 📬 Contact
+
+<p align="center">
+  <a href="mailto:shams.haqyar786@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://www.linkedin.com/in/shams-haqyar-373020136/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://github.com/shamsulhaqHaqyar"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+  <a href="https://wa.me/93774189382"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/></a>
+</p>
+
+<p align="center">
+  <b>Project Lead:</b> Shams Haqyar<br>
+  <b>Email:</b> shams.haqyar786@gmail.com<br>
+  <b>Website:</b> <a href="https://senf.af/lalah.html">senf.af/lalah.html</a>
+</p>
 
 ---
 
 ## 📄 License
 
-> (Choose a license and update this section, for example MIT, Apache 2.0, or “All rights reserved”)
+> This project is currently **proprietary**.  
+> Code and models are not publicly available.  
+> High-level design and documentation can be used for learning and discussion.
 
-Example:
+---
 
-This project is currently **closed source**.  
-Code and models are not yet publicly available, but the high-level design and documentation can be used for learning and discussion.
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light&quote=Education%20is%20the%20most%20powerful%20weapon%20which%20you%20can%20use%20to%20change%20the%20world.&author=Nelson%20Mandela" alt="Quote"/>
+</p>
 
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" alt="Footer"/>
+</p>
+
+---
+
+<p align="center">
+  Made with ❤️ for Afghan Students
+</p>
