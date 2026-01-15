@@ -1,6 +1,6 @@
 <!-- Header Banner -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=لاله%20|%20Lalah&fontSize=60&fontAlignY=35&animation=fadeIn&desc=AI%20Educational%20Chatbot%20for%20Afghan%20Students&descSize=20&descAlignY=55" alt="Lalah Header"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Lalah%20|%20لاله&fontSize=60&fontAlignY=35&animation=fadeIn&desc=AI%20Educational%20Chatbot%20for%20Afghan%20Students&descSize=20&descAlignY=55" alt="Lalah Header"/>
 </p>
 
 <p align="center">
