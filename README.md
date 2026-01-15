@@ -127,7 +127,7 @@ Lalah bridges the educational gap for students with limited access to quality te
 ## 🧰 Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,flask,fastapi,redis,aws,linux,github,html,css3,js" alt="Tech Stack"/>
+  <img src="https://skillicons.dev/icons?i=python,flask,fastapi,redis,aws,linux,github,html,css,js" alt="Tech Stack"/>
 </p>
 
 ### AI & Machine Learning
